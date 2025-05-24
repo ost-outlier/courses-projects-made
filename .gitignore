@@ -1,0 +1,20 @@
+# Dependências
+node_modules/
+
+# Builds do Next.js
+.next/
+
+# Arquivos de log
+*.log
+*.log.*
+
+
+# Arquivos de ambiente (nunca suba suas variáveis secretas!)
+.env
+# Cache de pacotes
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VS Code settings pessoais (opcional)
+.vscode/

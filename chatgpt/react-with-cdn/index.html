@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Meu primeiro React sem instalar nada</title>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <!-- React e ReactDOM -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <!-- Babel para interpretar JSX -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <!-- Nosso código com JSX -->
+    <script type="text/babel">
+      const App = () => {
+        return (
+          <div>
+            <h1>Olá do React com CDN + JSX!</h1>
+            <p>Meu primeiro React sem instalar nada</p>
+
+            <h2>Olá, mundo!</h2>
+            <p>Feito no VS Code com React + CDN + Babel</p>
+          </div>
+        );
+      };
+
+      ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+    </script>
+  </body>
+</html>
+<!--
+  Este é um exemplo básico de como usar React sem instalar nada. 
+  O código acima cria um componente simples que exibe uma mensagem na tela.
+  Você pode copiar e colar este código em um arquivo HTML e abri-lo em um navegador para ver o resultado.
+
+  Lembre-se de que, para projetos maiores, é recomendável usar ferramentas como Create React App ou Next.js para gerenciar dependências e otimizar o desenvolvimento.
+-->

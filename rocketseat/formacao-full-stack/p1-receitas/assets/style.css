@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Trabalhando as fontes */
+:root {
+  font-family: "Alice", serif;
+  line-height: 150%;
+  color: var(--text-color-secondary);
+
+  /* Color Styles */
+  --bg-color: #573824; /* background color */
+  --surface-color: #f0e8c2;
+  --text-color-primary: #291b1a;
+  --text-color-secondary: #573a37;
+  --text-color-on-bg: #f0e8c2;
+}
+
+h1 {
+  line-height: 140%;
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h1,
+h2 {
+  color: var(--text-color-primary);
+  margin-bottom: 4px;
+}
+
+ul {
+  /* list-style: decimal; Estilo de lista, parece interassante*/
+  padding-left: 24px;
+}
+
+/* _______________ */
+body {
+  background-size: cover;
+  background-color: var(--bg-color);
+}
+
+img {
+  border-radius: 16px;
+}
+main {
+  padding: 20px;
+}
+
+p + p {
+  margin-top: 12px;
+}
+
+section + section {
+  margin-top: 24px;
+}
+
+#page {
+  width: 800px;
+  padding: 24px;
+  background-color: #f0e8c2;
+  border-radius: 24px;
+  margin: 48px auto 28px;
+  box-sizing: border-box;
+}
+
+#page > img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: 400px; /* ou 400px, ajuste conforme quiser */
+  object-fit: cover;
+  border-radius: 16px;
+  display: block;
+}
+
+footer {
+  color: var(--text-color-on-bg);
+  text-align: center;
+  padding-bottom: 48px;
+}
+
+/* Apenas para esse exercício. No futuro, esses alinhamentos são feito através do flex */
+footer img {
+  vertical-align: middle;
+}
