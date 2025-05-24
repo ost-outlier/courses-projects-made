@@ -1,3 +1,6 @@
 Proposta de nomenclatura para os commits dos  projetos
 
 [1-receitas]
+
+git log --grep="\[nomenclatura-projeto\]" 
+
