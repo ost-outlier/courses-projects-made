@@ -1,6 +1,7 @@
 Proposta de nomenclatura para os commits dos  projetos
 
 [1-receitas]
+[SCRIMBA - Learn `html` and `CSS] 
 
 git log --grep="\[nomenclatura-projeto\]" 
 
